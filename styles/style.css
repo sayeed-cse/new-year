@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.container section {
+    margin-top: 120px;
+}
+
+/* banner section start */
+.banner-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+
+    top: 0;
+    text-align: center;
+    color: #FFF;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.banner-text h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 50%;
+}
+
+/* banner section ends */
+
+/* holiday deals styles start */
+.holiday-deals-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.holiday-deals-section h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.holiday-deals-section h5 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-deals-section h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.holiday-deals-section img {
+    width: 802px;
+    height: auto;
+}
+
+/* holiday deals styles ends */
+
+/* Midnight party style start */
+.midnight-party-section {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 600px;
+    background-image: url('../resources/Vectorrr.png');
+    border-radius: 20px;
+}
+
+.midnight-party-section::after {
+    content: '';
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.midnight-party-section .midnight-bg {
+    position: absolute;
+
+}
+
+.midnight-party-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+
+}
+
+.midnight-party-left h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.midnight-party-left p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.midnight-party-left a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 32px;
+    padding-top: 48px;
+}
+
+.midnight-party-right {
+    position: absolute;
+    right: 138px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+/* Midnight party style ends */
+
+/* event style start */
+.event-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 48px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 482px;
+    border-radius: 20px;
+
+}
+
+.event-section p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.event-section p span {
+    color: #F00;
+}
+
+.event-section button {
+    padding: 16px 32px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+}
+
+/* event style ends */
+
+/* best offer style start */
+.best-offer-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.offer-left {
+    padding-right: 70px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer-left h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-left h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.offer-left p,
+.offer-right p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-center {
+    width: 364.844px;
+    height: 364.844px;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 35px;
+}
+
+.offer-center img {
+    width: 100%;
+    height: 100%;
+}
+
+.offer-right {
+    padding-left: 118px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.offer-right h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.offer-right img {
+    padding-top: 43px;
+}
+
+/* best offer style ends */
+/* holiday sale style start */
+.holiday-sale-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holiday-sale-section h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-section h2 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    padding-top: 16px;
+    padding-bottom: 28px;
+}
+
+.holiday-sale-section h2 span {
+    color: #F00;
+}
+
+.holiday-sale-section p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-left: 126px;
+    padding-right: 126px;
+    margin-bottom: 64px;
+}
+
+.holiday-sale-banner {
+    background-image: url('../resources/Rectangle2.png');
+    background-size: contain;
+    height: 662px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shopping-img-area {
+    position: relative;
+}
+
+.shopping-discount-img {
+    position: absolute;
+    top: 77px;
+    left: -153px;
+}
+
+/* holiday sale style ends */
+
+/* portfolio-section */
+
+.portfolio-section {}
+
+.portfolio-section h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.portfolio-section h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.portfolio-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 65%;
+    margin-bottom: 48px;
+}
+
+.portfolio-section .portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.portfolio-section .portfolio img:hover{
+    border-radius: 16px;
+    opacity: .8;
+    box-shadow: 1px 1px 5px 5px whitesmoke;
+    
+}
+
+/* subscribe section */
+.subscribe-section {
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 212px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe-section img {
+    margin-bottom: 40px;
+}
+
+.subscribe-section h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.subscribe-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+input[type='email'] {
+    width: 477px;
+    padding:28px 30px;
+    border:none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding:40px;
+}
+
+.submit-btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding:24px 56px;
+    border:none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
+/* footer section */
+
+footer {
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 120px 0;
+    margin-top: 120px;
+}
+
+.footer-address,
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-address ul {
+    list-style: none;
+}
+.footer-address ul li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+footer hr {
+    border: 0px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
